@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: antiquewhite;
+  padding: 40px;
+  font-size: 1rem;
+}
+main {
+  height: fit-content;
+  width: 800px;
+  background-color: aliceblue;
+  border: none;
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 1000px;
+  min-width: 200px;
+}
+figure h1 {
+  font-size: 40px;
+  padding: 20px 0;
+  font-family: 'Young Serif', serif;
+}
+img {
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.info {
+  padding: 30px 30px;
+  width: 100%;
+}
+.info li {
+  padding: 10px;
+  margin-left: 30px;
+  color: purple;
+}
+.info h4 {
+  color: purple;
+}
+.info span {
+  font-weight: bold;
+  color: purple;
+}
+.ingredients {
+  width: 100%;
+}
+.ingredients h2 {
+  font-family: 'Young Serif', serif;
+  padding:  0;
+  color: rgb(186, 5, 5);
+}
+.ingredients ul {
+  padding: 10px;
+}
+.ingredients li {
+  padding: 10px;
+  margin-left: 10px;
+  color: #000
+}
+.ingredients li::marker {
+  color: rgb(186, 5, 5);
+}
+.instructions {
+  width: 100%;
+}
+.instructions li {
+  padding: 10px;
+}
+.instructions h2 {
+  font-family: 'Young Serif', serif;
+  padding:  0;
+  color: rgb(186, 5, 5);
+}
+.instructions ol {
+  padding: 10px;
+  margin-left: 10px;
+  color: #000
+}
+.instructions ol li::marker {
+  color: rgb(186, 5, 5);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.instructions span {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.nutrition {
+  width: 100%;
+}
+.nutrition h2 {
+  font-family: 'Young Serif', serif;
+  padding:  0;
+  color: rgb(186, 5, 5);
+}
+.nutrition p {
+  padding: 10px;
+  color: #000
+}
+table {
+  width: 100%;
+ 
+}
+th, td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+td {
+  color: rgb(186, 5, 5);
+  padding: 10px;
+}
+th {
+  color: #000
+}
